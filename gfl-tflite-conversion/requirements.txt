@@ -1,0 +1,29 @@
+# Core
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+azure-storage-blob
+
+# Ultralytics (stable)
+ultralytics==8.1.0
+
+# NumPy (must be <2)
+numpy==1.24.3
+
+# Torch (CPU only)
+torch==2.1.2+cpu
+torchvision==0.16.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# TensorFlow stack (Ultralytics-compatible)
+tensorflow-cpu==2.13.1
+protobuf>=3.20.3,<5
+
+
+# ONNX toolchain (known-good combo)
+onnx==1.14.1
+onnxruntime==1.16.3
+onnxsim==0.4.36
+onnx2tf==1.17.5
+tflite-support==0.4.4

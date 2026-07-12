@@ -1,0 +1,12 @@
+train: ../Data/Coin Data/train/images
+val: ../Data/Coin Data/valid/images
+test: ../Data/Coin Data/test/images
+nc: 2
+names: ['0', '6']
+
+roboflow:
+  workspace: gfl
+  project: coin-dataset-x7law-eaoas
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/gfl/coin-dataset-x7law-eaoas/1

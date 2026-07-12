@@ -1,0 +1,13 @@
+train: ../Data/US Quarter Data v1/train/images
+val: ../Data/US Quarter Data v1/valid/images
+test: ../Data/US Quarter Data v1/test/images
+
+nc: 1
+names: ['quarter_obverse']
+
+roboflow:
+  workspace: lntech
+  project: us-dnwdj
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/lntech/us-dnwdj/1

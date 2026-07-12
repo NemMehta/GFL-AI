@@ -1,0 +1,24 @@
+# Web framework
+flask>=2.2.0
+
+# Ultralytics YOLO
+ultralytics>=8.0.0
+
+# Core dependencies
+# numpy>=1.22.0
+
+# Azure Blob Storage
+azure-storage-blob>=12.14.0
+
+# Optional but safe
+gunicorn>=20.1.0
+
+onnx
+onnxruntime
+onnx-tf
+
+
+azure-ai-ml
+azure-identity
+azure-storage-blob
+azureml-sdk

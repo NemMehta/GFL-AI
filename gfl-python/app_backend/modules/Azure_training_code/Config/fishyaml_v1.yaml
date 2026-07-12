@@ -1,0 +1,13 @@
+train: ../Data/Fish Data v1/train/images
+val: ../Data/Fish Data v1/valid/images
+test: ../Data/Fish Data v1/test/images
+
+nc: 10
+names: ['Black fin tuna thunnus atlanticus', 'Jack Crevelle Caranx Hippos', 'Largemouth Bass micropterus nigricans', 'Mahi Mahi coryphaena hippurus', 'Red Grouper Epinephelus morio', 'Red drum sciaenops ocellatus', 'Snook centropomus undecimalis', 'Yellow Tail Snapper Ocyurus chrysurus', 'spotted sea trout cynoscion nebulosus', 'tarpon megalops atlanticus']
+
+roboflow:
+  workspace: gfl
+  project: fish-identification-qfctd
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/gfl/fish-identification-qfctd/1
