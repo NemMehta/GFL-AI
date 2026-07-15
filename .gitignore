@@ -1,0 +1,24 @@
+# Python envs & caches
+__pycache__/
+*.pyc
+.venv/
+venv*/
+
+# Large model binaries (version via Git LFS or external storage if ever needed)
+*.pt
+*.tflite
+*.onnx
+*.mlpackage.zip
+*.keras
+*.h5
+
+# Large tensors / arrays
+*.npy
+*.npz
+
+# Distribution bundles
+*.zip
+
+# OS cruft
+.DS_Store
+Thumbs.db

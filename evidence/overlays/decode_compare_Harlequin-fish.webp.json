@@ -1,0 +1,56 @@
+{
+  "image": "Harlequin-fish.webp",
+  "demo_conf": 0.1,
+  "pt_reference": [
+    {
+      "cls": 144,
+      "name": "golden_shiner_notemigonus_crysoleucas",
+      "conf": 0.1976446807384491,
+      "xyxy": [
+        234.6901397705078,
+        36.89377975463867,
+        450.8230285644531,
+        153.1151580810547
+      ]
+    },
+    {
+      "cls": 201,
+      "name": "fallfish_semotilus_corporalis",
+      "conf": 0.14676710963249207,
+      "xyxy": [
+        235.6195526123047,
+        37.665164947509766,
+        449.3471374511719,
+        152.77975463867188
+      ]
+    }
+  ],
+  "tflite_correct": [
+    {
+      "cls": 293,
+      "name": "striped_tigerfish_hydrocynus_vittatus",
+      "conf": 0.4380625784397125,
+      "xyxy": [
+        238.21628838777542,
+        38.846492767333984,
+        447.84390181303024,
+        153.0938744544983
+      ]
+    }
+  ],
+  "tflite_wrong_no_x640": [
+    {
+      "cls": 293,
+      "name": "striped_tigerfish_hydrocynus_vittatus",
+      "conf": 0.4380625784397125,
+      "xyxy": [
+        0.3722129506058991,
+        0.0,
+        0.6997560965828598,
+        0.0
+      ]
+    }
+  ],
+  "iou_correct_vs_pt": 0.9534279206496495,
+  "iou_wrong_vs_pt": 0.0
+}

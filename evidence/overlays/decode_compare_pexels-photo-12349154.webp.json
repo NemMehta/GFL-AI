@@ -1,0 +1,56 @@
+{
+  "image": "pexels-photo-12349154.webp",
+  "demo_conf": 0.1,
+  "pt_reference": [
+    {
+      "cls": 129,
+      "name": "yellow_bullhead_catfish_ameiurus_natalis",
+      "conf": 0.19395524263381958,
+      "xyxy": [
+        0.34782886505126953,
+        148.64590454101562,
+        137.3955841064453,
+        275.5008850097656
+      ]
+    },
+    {
+      "cls": 129,
+      "name": "yellow_bullhead_catfish_ameiurus_natalis",
+      "conf": 0.1507543921470642,
+      "xyxy": [
+        17.094970703125,
+        189.91888427734375,
+        115.06717681884766,
+        332.4172668457031
+      ]
+    }
+  ],
+  "tflite_correct": [
+    {
+      "cls": 129,
+      "name": "yellow_bullhead_catfish_ameiurus_natalis",
+      "conf": 0.2364308089017868,
+      "xyxy": [
+        0.16567111015319824,
+        148.9042103290558,
+        136.09063625335693,
+        273.6217439174652
+      ]
+    }
+  ],
+  "tflite_wrong_no_x640": [
+    {
+      "cls": 129,
+      "name": "yellow_bullhead_catfish_ameiurus_natalis",
+      "conf": 0.2364308089017868,
+      "xyxy": [
+        0.00025886110961437225,
+        0.0,
+        0.2126416191458702,
+        0.0
+      ]
+    }
+  ],
+  "iou_correct_vs_pt": 0.9725182127247596,
+  "iou_wrong_vs_pt": 0.0
+}

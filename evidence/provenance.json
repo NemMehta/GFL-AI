@@ -1,0 +1,100 @@
+{
+  "generated_for": "GFL TFLite coordinate-normalization diagnostics",
+  "demo_mode_no_fish_images": false,
+  "images": [
+    "GettyImages-1131223149-7151fa064bea416cbcbc8913b80c4cc1.webp",
+    "Harlequin-fish.webp",
+    "decaying-fish-on-the-shallow-water.webp",
+    "image-set-of-six-tropical-fish.webp",
+    "pexels-photo-12349154.webp",
+    "pexels-photo-13070712.webp",
+    "species-river-fish-white-background-35038441.webp"
+  ],
+  "artifacts": {
+    "pt": "Model_2026-06-27_14-44-47.pt",
+    "tflite": "Model_2026-06-27_14-44-47_float32.tflite",
+    "names": "Names_Model_2026-06-27_14-44-47.txt"
+  },
+  "sha256": {
+    "Model_2026-06-27_14-44-47.pt": "59dcac6daae91da93310214d7d7dc906151b0f53fc7d7de108937271f3f30cc4",
+    "Model_2026-06-27_14-44-47_float32.tflite": "cc48c5972e592830a917a55cc4eeff33aee517e2474d6e94b0446ec0bf845997",
+    "Names_Model_2026-06-27_14-44-47.txt": "4ed8f711e6cb2891f20a3a0685ecea1ea3c75fb48865ccfb24918464aad9389e"
+  },
+  "versions": {
+    "ultralytics": "8.1.0",
+    "torch": "2.1.2+cpu",
+    "tensorflow": "2.13.1",
+    "numpy": "1.24.3"
+  },
+  "headline": {
+    "global_box_slope_tf_to_pt": 640.0,
+    "class_score_r2": 1.0,
+    "best_detection_image": "species-river-fish-white-background-35038441.webp",
+    "best_max_class_score": 0.8792
+  },
+  "per_image": {
+    "GettyImages-1131223149-7151fa064bea416cbcbc8913b80c4cc1.webp": {
+      "demo_conf": 0.1,
+      "n_ref": 1,
+      "n_correct": 1,
+      "n_wrong": 1,
+      "iou_correct_vs_pt": 0.9812000986911099,
+      "iou_wrong_vs_pt": 0.0,
+      "max_class_score": 0.2153
+    },
+    "Harlequin-fish.webp": {
+      "demo_conf": 0.1,
+      "n_ref": 2,
+      "n_correct": 1,
+      "n_wrong": 1,
+      "iou_correct_vs_pt": 0.9534279206496495,
+      "iou_wrong_vs_pt": 0.0,
+      "max_class_score": 0.4381
+    },
+    "decaying-fish-on-the-shallow-water.webp": {
+      "demo_conf": 0.25,
+      "n_ref": 1,
+      "n_correct": 1,
+      "n_wrong": 1,
+      "iou_correct_vs_pt": 0.9828515729334746,
+      "iou_wrong_vs_pt": 0.0,
+      "max_class_score": 0.5472
+    },
+    "image-set-of-six-tropical-fish.webp": {
+      "demo_conf": 0.02,
+      "n_ref": 1,
+      "n_correct": 1,
+      "n_wrong": 1,
+      "iou_correct_vs_pt": 0.9624279788535629,
+      "iou_wrong_vs_pt": 0.0,
+      "max_class_score": 0.1568
+    },
+    "pexels-photo-12349154.webp": {
+      "demo_conf": 0.1,
+      "n_ref": 2,
+      "n_correct": 1,
+      "n_wrong": 1,
+      "iou_correct_vs_pt": 0.9725182127247596,
+      "iou_wrong_vs_pt": 0.0,
+      "max_class_score": 0.2364
+    },
+    "pexels-photo-13070712.webp": {
+      "demo_conf": 0.25,
+      "n_ref": 1,
+      "n_correct": 2,
+      "n_wrong": 2,
+      "iou_correct_vs_pt": 0.011021697292249317,
+      "iou_wrong_vs_pt": 0.0,
+      "max_class_score": 0.2918
+    },
+    "species-river-fish-white-background-35038441.webp": {
+      "demo_conf": 0.25,
+      "n_ref": 11,
+      "n_correct": 10,
+      "n_wrong": 10,
+      "iou_correct_vs_pt": 0.9881701184415327,
+      "iou_wrong_vs_pt": 0.0,
+      "max_class_score": 0.8792
+    }
+  }
+}

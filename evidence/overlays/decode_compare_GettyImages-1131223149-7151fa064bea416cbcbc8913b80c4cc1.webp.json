@@ -1,0 +1,45 @@
+{
+  "image": "GettyImages-1131223149-7151fa064bea416cbcbc8913b80c4cc1.webp",
+  "demo_conf": 0.1,
+  "pt_reference": [
+    {
+      "cls": 52,
+      "name": "common_carp_cyprinus_carpio",
+      "conf": 0.12266478687524796,
+      "xyxy": [
+        195.73129272460938,
+        78.74613952636719,
+        328.852783203125,
+        148.04751586914062
+      ]
+    }
+  ],
+  "tflite_correct": [
+    {
+      "cls": 52,
+      "name": "common_carp_cyprinus_carpio",
+      "conf": 0.21532265841960907,
+      "xyxy": [
+        195.87985426187515,
+        78.95258516073227,
+        327.69598811864853,
+        147.62448221445084
+      ]
+    }
+  ],
+  "tflite_wrong_no_x640": [
+    {
+      "cls": 52,
+      "name": "common_carp_cyprinus_carpio",
+      "conf": 0.21532265841960907,
+      "xyxy": [
+        0.3060622722841799,
+        0.0,
+        0.5120249814353883,
+        0.0
+      ]
+    }
+  ],
+  "iou_correct_vs_pt": 0.9812000986911099,
+  "iou_wrong_vs_pt": 0.0
+}

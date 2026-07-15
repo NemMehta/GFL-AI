@@ -1,0 +1,8 @@
+image,pt_dets@0.25,tflite_dets@0.25,top1_same_class,top1_iou,pt_top_conf,tflite_top_conf
+GettyImages-1131223149-7151fa064bea416cbcbc8913b80c4cc1.webp,0,0,False,,,
+Harlequin-fish.webp,0,1,False,,,0.4381
+decaying-fish-on-the-shallow-water.webp,1,1,True,0.9829,0.5931,0.5472
+image-set-of-six-tropical-fish.webp,0,0,False,,,
+pexels-photo-12349154.webp,0,0,False,,,
+pexels-photo-13070712.webp,1,2,False,0.011,0.5607,0.2918
+species-river-fish-white-background-35038441.webp,11,10,True,0.9882,0.8823,0.8792

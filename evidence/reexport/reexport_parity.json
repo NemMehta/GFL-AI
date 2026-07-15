@@ -1,0 +1,48 @@
+{
+  "step": "done",
+  "ok": true,
+  "shipped_tflite": {
+    "sha256": "cc48c5972e592830a917a55cc4eeff33aee517e2474d6e94b0446ec0bf845997",
+    "size": 13931894,
+    "input_shape": [
+      1,
+      640,
+      640,
+      3
+    ],
+    "output_shape": [
+      1,
+      343,
+      8400
+    ]
+  },
+  "my_reexport": {
+    "sha256": "b18b201e7b58549c6fbf3ed159ca3edfdf7938c99f69ce04818a62c7f4fc9b7a",
+    "size": 13916488,
+    "input_shape": [
+      1,
+      640,
+      640,
+      3
+    ],
+    "output_shape": [
+      1,
+      343,
+      8400
+    ]
+  },
+  "toolchain": {
+    "ultralytics": "8.1.0",
+    "onnx": "1.14.1",
+    "onnxsim": "0.4.36",
+    "onnx2tf": "1.17.5",
+    "tensorflow": "2.13.1"
+  },
+  "comparison_image": "GettyImages-1131223149-7151fa064bea416cbcbc8913b80c4cc1.webp",
+  "same_output_shape": true,
+  "max_abs_diff_full": 1.6689300537109375e-06,
+  "max_abs_diff_class_rows": 4.6193599700927734e-07,
+  "max_abs_diff_box_rows": 1.6689300537109375e-06,
+  "note": "onnx2tf produced the float32 .tflite successfully; only Ultralytics' OPTIONAL metadata step failed (tflite_support has no Windows wheel / needs MSVC). Binaries are not byte-identical (onnx2tf embeds nondeterministic metadata) but the numerical outputs match within float32 tolerance.",
+  "verdict": "REPRODUCIBLE: independent re-export matches shipped .tflite within float32 tolerance"
+}

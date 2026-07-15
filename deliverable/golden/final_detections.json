@@ -1,0 +1,7 @@
+{
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_det": 300,
+  "detections": [],
+  "note": "bus.jpg has no fish -> empty at conf=0.25. See final_detections_conf0.001.json for a non-empty set used to validate decode math."
+}

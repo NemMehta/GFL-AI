@@ -1,0 +1,67 @@
+{
+  "image": "pexels-photo-13070712.webp",
+  "demo_conf": 0.25,
+  "pt_reference": [
+    {
+      "cls": 194,
+      "name": "white_catfish_ameiurus_catus",
+      "conf": 0.5607296228408813,
+      "xyxy": [
+        204.26686096191406,
+        291.8222351074219,
+        301.8163757324219,
+        458.7346496582031
+      ]
+    }
+  ],
+  "tflite_correct": [
+    {
+      "cls": 87,
+      "name": "tilefish_lopholatilus_chamaeleonticeps",
+      "conf": 0.29179590940475464,
+      "xyxy": [
+        281.8873804807663,
+        437.1076762676239,
+        457.01150715351105,
+        569.8924243450165
+      ]
+    },
+    {
+      "cls": 221,
+      "name": "barred_sand_bass_paralabrax_nebulifer",
+      "conf": 0.2620052397251129,
+      "xyxy": [
+        282.0785981416702,
+        437.03386783599854,
+        457.1193617582321,
+        569.8166966438293
+      ]
+    }
+  ],
+  "tflite_wrong_no_x640": [
+    {
+      "cls": 87,
+      "name": "tilefish_lopholatilus_chamaeleonticeps",
+      "conf": 0.29179590940475464,
+      "xyxy": [
+        0.0,
+        0.6829807441681623,
+        0.0,
+        0.8904569130390882
+      ]
+    },
+    {
+      "cls": 221,
+      "name": "barred_sand_bass_paralabrax_nebulifer",
+      "conf": 0.2620052397251129,
+      "xyxy": [
+        0.0,
+        0.6828654184937477,
+        0.0,
+        0.8903385885059834
+      ]
+    }
+  ],
+  "iou_correct_vs_pt": 0.011021697292249317,
+  "iou_wrong_vs_pt": 0.0
+}

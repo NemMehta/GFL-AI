@@ -1,0 +1,139 @@
+{
+  "conf": 0.001,
+  "iou": 0.7,
+  "max_det": 300,
+  "detections": [
+    {
+      "cls": 86,
+      "cls_name": "duckbill_ray_aetomylaeus_bovinus",
+      "conf": 0.080881,
+      "xyxy": [
+        2.22,
+        688.55,
+        810.0,
+        1080.0
+      ]
+    },
+    {
+      "cls": 176,
+      "cls_name": "black_marlin_istiompax_indica",
+      "conf": 0.030265,
+      "xyxy": [
+        0.13,
+        695.65,
+        810.0,
+        1079.06
+      ]
+    },
+    {
+      "cls": 153,
+      "cls_name": "blue_marlin_makaira_nigricans",
+      "conf": 0.021605,
+      "xyxy": [
+        6.87,
+        697.01,
+        808.03,
+        1079.49
+      ]
+    },
+    {
+      "cls": 86,
+      "cls_name": "duckbill_ray_aetomylaeus_bovinus",
+      "conf": 0.015999,
+      "xyxy": [
+        0.0,
+        804.96,
+        803.64,
+        1080.0
+      ]
+    },
+    {
+      "cls": 153,
+      "cls_name": "blue_marlin_makaira_nigricans",
+      "conf": 0.015633,
+      "xyxy": [
+        0.0,
+        849.37,
+        810.0,
+        1079.71
+      ]
+    },
+    {
+      "cls": 70,
+      "cls_name": "bronze_whaler_shark_carcharhinus_brachyurus",
+      "conf": 0.011837,
+      "xyxy": [
+        30.81,
+        699.23,
+        805.76,
+        921.63
+      ]
+    },
+    {
+      "cls": 86,
+      "cls_name": "duckbill_ray_aetomylaeus_bovinus",
+      "conf": 0.003949,
+      "xyxy": [
+        0.23,
+        886.74,
+        810.0,
+        1080.0
+      ]
+    },
+    {
+      "cls": 176,
+      "cls_name": "black_marlin_istiompax_indica",
+      "conf": 0.002818,
+      "xyxy": [
+        66.42,
+        679.34,
+        801.38,
+        930.39
+      ]
+    },
+    {
+      "cls": 59,
+      "cls_name": "wahoo_acanthocybium_solandri",
+      "conf": 0.001926,
+      "xyxy": [
+        51.92,
+        0.0,
+        674.21,
+        26.93
+      ]
+    },
+    {
+      "cls": 153,
+      "cls_name": "blue_marlin_makaira_nigricans",
+      "conf": 0.001626,
+      "xyxy": [
+        208.0,
+        323.46,
+        234.61,
+        491.47
+      ]
+    },
+    {
+      "cls": 153,
+      "cls_name": "blue_marlin_makaira_nigricans",
+      "conf": 0.001072,
+      "xyxy": [
+        197.0,
+        322.59,
+        223.42,
+        493.42
+      ]
+    },
+    {
+      "cls": 153,
+      "cls_name": "blue_marlin_makaira_nigricans",
+      "conf": 0.001023,
+      "xyxy": [
+        644.47,
+        85.97,
+        807.5,
+        359.9
+      ]
+    }
+  ]
+}

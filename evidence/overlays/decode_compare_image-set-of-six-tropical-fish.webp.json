@@ -1,0 +1,45 @@
+{
+  "image": "image-set-of-six-tropical-fish.webp",
+  "demo_conf": 0.02,
+  "pt_reference": [
+    {
+      "cls": 87,
+      "name": "tilefish_lopholatilus_chamaeleonticeps",
+      "conf": 0.0212808009237051,
+      "xyxy": [
+        261.3731384277344,
+        273.0993957519531,
+        435.22381591796875,
+        358.25439453125
+      ]
+    }
+  ],
+  "tflite_correct": [
+    {
+      "cls": 103,
+      "name": "blackfin_snapper_lutjanus_buccanella",
+      "conf": 0.15677335858345032,
+      "xyxy": [
+        261.881947517395,
+        273.8368332386017,
+        432.22707509994507,
+        357.4789583683014
+      ]
+    }
+  ],
+  "tflite_wrong_no_x640": [
+    {
+      "cls": 103,
+      "name": "blackfin_snapper_lutjanus_buccanella",
+      "conf": 0.15677335858345032,
+      "xyxy": [
+        0.4091905429959297,
+        0.0,
+        0.6753548048436642,
+        0.0
+      ]
+    }
+  ],
+  "iou_correct_vs_pt": 0.9624279788535629,
+  "iou_wrong_vs_pt": 0.0
+}

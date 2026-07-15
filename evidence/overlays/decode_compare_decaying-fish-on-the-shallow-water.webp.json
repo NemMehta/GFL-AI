@@ -1,0 +1,45 @@
+{
+  "image": "decaying-fish-on-the-shallow-water.webp",
+  "demo_conf": 0.25,
+  "pt_reference": [
+    {
+      "cls": 145,
+      "name": "cunner_tautogolabrus_adspersus",
+      "conf": 0.5931469202041626,
+      "xyxy": [
+        20.855331420898438,
+        50.188941955566406,
+        431.6039123535156,
+        239.74392700195312
+      ]
+    }
+  ],
+  "tflite_correct": [
+    {
+      "cls": 145,
+      "name": "cunner_tautogolabrus_adspersus",
+      "conf": 0.547200620174408,
+      "xyxy": [
+        16.592472791671753,
+        50.780630111694336,
+        431.7902624607086,
+        239.08982276916504
+      ]
+    }
+  ],
+  "tflite_wrong_no_x640": [
+    {
+      "cls": 145,
+      "name": "cunner_tautogolabrus_adspersus",
+      "conf": 0.547200620174408,
+      "xyxy": [
+        0.025925738736987114,
+        0.0,
+        0.6746722850948572,
+        0.0
+      ]
+    }
+  ],
+  "iou_correct_vs_pt": 0.9828515729334746,
+  "iou_wrong_vs_pt": 0.0
+}
