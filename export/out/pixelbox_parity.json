@@ -1,0 +1,101 @@
+{
+  "checks": {
+    "convention_flipped": true,
+    "class_rows_unchanged": true,
+    "boxes_match_pt": true,
+    "det_counts_match": true,
+    "classes_match": true,
+    "iou_ok": true,
+    "models_distinguishable": true
+  },
+  "control": {
+    "normalized_box_rows_max": 1.0017476081848145,
+    "pixelbox_box_rows_max": 641.1185302734375
+  },
+  "per_image": [
+    {
+      "image": "GettyImages-1131223149-7151fa064bea416cbcbc8913b80c4cc1.webp",
+      "box_ratio_median": 1.0,
+      "box_max_absdiff": 0.002166748046875,
+      "cls_max_absdiff": 1.1622905731201172e-06,
+      "pt_dets": 0,
+      "tflite_dets": 0,
+      "count_match": true,
+      "classes_match": true,
+      "top1_iou": null,
+      "min_iou": null
+    },
+    {
+      "image": "Harlequin-fish.webp",
+      "box_ratio_median": 1.0,
+      "box_max_absdiff": 0.0033416748046875,
+      "cls_max_absdiff": 6.556510925292969e-06,
+      "pt_dets": 1,
+      "tflite_dets": 1,
+      "count_match": true,
+      "classes_match": true,
+      "top1_iou": 1.0,
+      "min_iou": 1.0
+    },
+    {
+      "image": "decaying-fish-on-the-shallow-water.webp",
+      "box_ratio_median": 1.0,
+      "box_max_absdiff": 0.0020751953125,
+      "cls_max_absdiff": 4.32133674621582e-06,
+      "pt_dets": 1,
+      "tflite_dets": 1,
+      "count_match": true,
+      "classes_match": true,
+      "top1_iou": 1.0,
+      "min_iou": 1.0
+    },
+    {
+      "image": "image-set-of-six-tropical-fish.webp",
+      "box_ratio_median": 1.0,
+      "box_max_absdiff": 0.001434326171875,
+      "cls_max_absdiff": 1.3485550880432129e-06,
+      "pt_dets": 0,
+      "tflite_dets": 0,
+      "count_match": true,
+      "classes_match": true,
+      "top1_iou": null,
+      "min_iou": null
+    },
+    {
+      "image": "pexels-photo-12349154.webp",
+      "box_ratio_median": 1.0,
+      "box_max_absdiff": 0.0032958984375,
+      "cls_max_absdiff": 2.339482307434082e-06,
+      "pt_dets": 0,
+      "tflite_dets": 0,
+      "count_match": true,
+      "classes_match": true,
+      "top1_iou": null,
+      "min_iou": null
+    },
+    {
+      "image": "pexels-photo-13070712.webp",
+      "box_ratio_median": 1.0,
+      "box_max_absdiff": 0.00146484375,
+      "cls_max_absdiff": 2.637505531311035e-06,
+      "pt_dets": 2,
+      "tflite_dets": 2,
+      "count_match": true,
+      "classes_match": true,
+      "top1_iou": 1.0,
+      "min_iou": 1.0
+    },
+    {
+      "image": "species-river-fish-white-background-35038441.webp",
+      "box_ratio_median": 1.0,
+      "box_max_absdiff": 0.00347900390625,
+      "cls_max_absdiff": 4.276633262634277e-06,
+      "pt_dets": 10,
+      "tflite_dets": 10,
+      "count_match": true,
+      "classes_match": true,
+      "top1_iou": 1.0,
+      "min_iou": 1.0
+    }
+  ]
+}

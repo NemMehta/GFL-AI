@@ -1,0 +1,120 @@
+{
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_det": 300,
+  "box_convention": "pixel",
+  "decode_scale": 1.0,
+  "source_image": "species-river-fish-white-background-35038441.webp",
+  "detections": [
+    {
+      "cls": 17,
+      "cls_name": "Mangrove Snapper (Lutjanus griseus)",
+      "conf": 0.8792,
+      "xyxy": [
+        360.7,
+        89.3,
+        460.8,
+        120.7
+      ]
+    },
+    {
+      "cls": 225,
+      "cls_name": "Half Moon (Medialuna californiensis)",
+      "conf": 0.6498,
+      "xyxy": [
+        164.1,
+        248.8,
+        263.4,
+        279.7
+      ]
+    },
+    {
+      "cls": 226,
+      "cls_name": "Bone Fish (Albula vulpes)",
+      "conf": 0.5896,
+      "xyxy": [
+        14.7,
+        184.4,
+        125.5,
+        222.8
+      ]
+    },
+    {
+      "cls": 128,
+      "cls_name": "Gulf Kingfish (Menticirrhus littoralis)",
+      "conf": 0.5893,
+      "xyxy": [
+        11.7,
+        78.6,
+        111.7,
+        124.0
+      ]
+    },
+    {
+      "cls": 93,
+      "cls_name": "Northern Pike (Esox lucius)",
+      "conf": 0.5616,
+      "xyxy": [
+        277.2,
+        232.0,
+        484.4,
+        276.9
+      ]
+    },
+    {
+      "cls": 41,
+      "cls_name": "Sea Mullet (Mugil cephalus)",
+      "conf": 0.5447,
+      "xyxy": [
+        17.4,
+        234.3,
+        132.1,
+        285.3
+      ]
+    },
+    {
+      "cls": 41,
+      "cls_name": "Sea Mullet (Mugil cephalus)",
+      "conf": 0.4748,
+      "xyxy": [
+        14.9,
+        185.4,
+        127.1,
+        224.7
+      ]
+    },
+    {
+      "cls": 94,
+      "cls_name": "White Bass (Morone chrysops)",
+      "conf": 0.2811,
+      "xyxy": [
+        121.6,
+        20.2,
+        230.2,
+        71.7
+      ]
+    },
+    {
+      "cls": 75,
+      "cls_name": "Pompano (Trachinotus carolinus)",
+      "conf": 0.2635,
+      "xyxy": [
+        145.1,
+        174.3,
+        264.9,
+        235.0
+      ]
+    },
+    {
+      "cls": 41,
+      "cls_name": "Sea Mullet (Mugil cephalus)",
+      "conf": 0.2529,
+      "xyxy": [
+        14.7,
+        127.4,
+        130.9,
+        169.6
+      ]
+    }
+  ]
+}

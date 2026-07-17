@@ -1,0 +1,41 @@
+# Toolchain for exporting Model_2026-06-27_14-44-47.pt -> .tflite
+#
+# Pins mirror gfl-tflite-conversion/requirements.txt exactly, minus the service
+# deps (fastapi/uvicorn/azure) that the export path does not use. These are the
+# versions that produced the verified re-export (evidence/reexport/reexport_parity.json).
+#
+# Python 3.11.
+
+ultralytics==8.1.0
+
+# NumPy must be <2 for this TF/torch combo.
+numpy==1.24.3
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.2+cpu
+torchvision==0.16.2+cpu
+
+tensorflow-cpu==2.13.1
+protobuf>=3.20.3,<5
+
+# ONNX toolchain (known-good combo; onnx2tf version determines output layout).
+onnx==1.14.1
+onnxruntime==1.16.3
+onnxsim==0.4.36
+onnx2tf==1.17.5
+onnx_graphsurgeon==0.6.1
+sng4onnx==2.0.1
+
+opencv-python==4.11.0.86
+
+# tflite-support==0.4.4 is INTENTIONALLY OMITTED.
+#
+# It is required only for Ultralytics' OPTIONAL post-export metadata step, and it
+# publishes no Windows wheel (needs MSVC to build). Installing it is not possible
+# on Windows and not necessary for the float32 export -- onnx2tf produces the
+# .tflite before the metadata step runs.
+#
+# Consequence: models exported on Windows lack the embedded metadata (imgsz +
+# class names) that the original Linux-built model carries. Ship the
+# Names_*.txt sidecar alongside. To restore embedded metadata, export on Linux
+# with `pip install tflite-support==0.4.4`.
